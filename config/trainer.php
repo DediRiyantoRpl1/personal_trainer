@@ -9,7 +9,7 @@ $img = fn (string $id, int $w, int $q = 70) => "https://images.unsplash.com/{$id
 
 return [
     'name'     => 'Coach Dedi',
-    'fullname' => 'Dedi Pratama',
+    'fullname' => 'Dedi R',
     'city'     => 'Yogyakarta',
 
     // Subdomain khusus admin, mis. admin.personal-trainer-laravel.test (isi lewat .env: ADMIN_DOMAIN).

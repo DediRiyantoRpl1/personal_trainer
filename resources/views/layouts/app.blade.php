@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <title>@yield('title', 'Coach Dedi — Personal Trainer Bersertifikat')</title>
-<meta name="description" content="@yield('description', 'Coach Dedi Pratama, personal trainer bersertifikat. Program 1-on-1 yang disusun khusus untuk targetmu.')">
+<meta name="description" content="@yield('description', 'Coach Dedi R, personal trainer bersertifikat. Program 1-on-1 yang disusun khusus untuk targetmu.')">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
