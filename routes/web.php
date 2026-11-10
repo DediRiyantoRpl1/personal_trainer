@@ -34,7 +34,7 @@ $admin->middleware(NoStore::class)->group(function () use ($adminDomain) {
     Route::post('/keluar', [AdminAuthController::class, 'logout'])->name('admin.logout');
 
     // Wajib 2FA: admin yang belum mengaktifkan verifikasi 2 langkah hanya bisa membuka halaman keamanan
-    Route::middleware([AdminAuth::class, 'admin.2fa.wajib'])->group(function () {
+    Route::middleware(AdminAuth::class)->group(function () {
         Route::get('/', [AdminDashboardController::class, 'index'])->name('admin.home');
 
         Route::get('/booking', [AdminController::class, 'index'])->name('admin.bookings');
